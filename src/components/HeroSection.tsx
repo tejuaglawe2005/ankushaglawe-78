@@ -22,17 +22,17 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full text-primary font-medium text-sm">
-                Jila Adhyaksh • Politician • Social Worker
+                District President • Politician • Social Worker
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                 Dr. Ankush <br />
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
-                  Kisanrao Aglawe
+                  Kisan Aglawe
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Empowering communities through dedicated service, sustainable agriculture, 
-                and progressive leadership for a self-reliant India.
+                Empowering rural communities, youth, and farmers through dedicated service, 
+                sustainable development, and progressive leadership for a self-reliant India.
               </p>
             </div>
 
@@ -115,7 +115,7 @@ export default function HeroSection() {
               <div className="relative w-full h-full rounded-full overflow-hidden shadow-glow border-4 border-primary/20">
                 <img
                   src={heroPortrait}
-                  alt="Dr. Ankush Kisanrao Aglawe - Professional Portrait"
+                  alt="Dr. Ankush Kisan Aglawe - Professional Portrait"
                   className="w-full h-full object-cover"
                 />
               </div>

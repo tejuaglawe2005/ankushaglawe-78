@@ -1,72 +1,98 @@
-import { GraduationCap, Leaf, Heart, Shield, Trees } from "lucide-react";
+import { GraduationCap, Leaf, Heart, Shield, Trees, Users, Truck, Hospital } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export default function ContributionsSection() {
   const contributions = [
     {
-      icon: GraduationCap,
-      title: "Education & Youth Empowerment",
-      description: "Providing free coaching and educational opportunities to students from underprivileged backgrounds.",
+      icon: Leaf,
+      title: "'Mazi Mati Maza Desh' Campaign",
+      description: "Convenor for Bhadrawati and Warora talukas, successfully implemented across 116 villages.",
       achievements: [
-        "Free coaching programs for competitive exams",
-        "Educational scholarships for deserving students",
-        "Career guidance and mentorship initiatives",
-        "Digital literacy programs in rural areas"
+        "Rural development initiatives in 116 villages",
+        "Agricultural awareness and farmer support programs",
+        "Community empowerment through grassroots campaigns",
+        "Sustainable development practices implementation"
+      ],
+      gradient: "bg-gradient-service",
+      color: "text-secondary"
+    },
+    {
+      icon: GraduationCap,
+      title: "Sanskrit Gram Initiative",
+      description: "Adopted 96 villages in Bhadrawati taluka for comprehensive cultural and social development.",
+      achievements: [
+        "Cultural preservation and development programs",
+        "Educational support and infrastructure development",
+        "Social welfare initiatives in rural communities",
+        "Youth empowerment and skill development"
       ],
       gradient: "bg-gradient-trust",
       color: "text-accent"
     },
     {
-      icon: Leaf,
-      title: "Agriculture & Rural Development", 
-      description: "Leading farmer awareness campaigns and promoting sustainable organic farming practices.",
+      icon: Trees,
+      title: "Cleanliness & Awareness Drives",
+      description: "Leading Swachhata Rath Yatra and Social Hindutva awareness campaigns across regions.",
       achievements: [
-        "Organic farming workshops and training",
-        "Modern agricultural technique demonstrations", 
-        "Farmer welfare schemes and support programs",
-        "Rural infrastructure development initiatives"
+        "Swachhata Rath Yatra in multiple districts",
+        "Environmental awareness campaigns",
+        "Community cleanliness initiatives",
+        "Social awareness and cultural programs"
       ],
       gradient: "bg-gradient-service",
       color: "text-secondary"
     },
     {
-      icon: Trees,
-      title: "Environmental Conservation",
-      description: "Championing environmental protection through massive tree plantation drives.",
+      icon: Users,
+      title: "Farmer Support Programs",
+      description: "Comprehensive agricultural support including seed distribution and modern farming techniques.",
       achievements: [
-        "10,000+ trees planted across the region",
-        "Environmental awareness campaigns",
-        "Water conservation projects",
-        "Sustainable development initiatives"
+        "Distributed seed kits to thousands of farmers",
+        "Agricultural training and awareness programs",
+        "Modern farming technique demonstrations",
+        "Farmer welfare and support initiatives"
       ],
-      gradient: "bg-gradient-service",
-      color: "text-secondary"
+      gradient: "bg-gradient-hero",
+      color: "text-primary"
+    },
+    {
+      icon: Hospital,
+      title: "Healthcare & Humanitarian Aid",
+      description: "Regular health camps, blood donation drives, and support to monasteries and communities.",
+      achievements: [
+        "Regular blood donation camps organization",
+        "Free health checkup programs",
+        "Food and aid distribution to monasteries",
+        "Healthcare support during emergencies"
+      ],
+      gradient: "bg-gradient-trust",
+      color: "text-accent"
     },
     {
       icon: Heart,
-      title: "Healthcare Initiatives",
-      description: "Organizing health camps and providing medical assistance to communities in need.",
+      title: "COVID-19 Relief Operations",
+      description: "Served communities 24/7 during pandemic, distributing essentials to thousands of families.",
       achievements: [
-        "Regular blood donation camps",
-        "Free health checkup programs",
-        "Medical aid during disasters and emergencies",
-        "Health awareness and prevention campaigns"
+        "24/7 service during COVID-19 pandemic",
+        "Essential supplies to thousands of families",
+        "Amritdhara Initiative helping 21,000+ families",
+        "Emergency relief and support coordination"
       ],
       gradient: "bg-gradient-hero",
       color: "text-primary"
     },
     {
       icon: Shield,
-      title: "Support for Soldiers & Families",
-      description: "Dedicated assistance programs for veterans, war widows, and martyrs' families.",
+      title: "Human Rights & Social Justice",
+      description: "Through Central Human Rights Organization, supporting education, women, farmers, and marginalized communities.",
       achievements: [
-        "Financial support for war widows",
-        "Educational assistance for martyrs' children",
-        "Healthcare support for veterans",
-        "Employment opportunities for ex-servicemen"
+        "Educational support for underprivileged children",
+        "Women empowerment and support programs",
+        "Farmers' rights advocacy and assistance",
+        "Support for differently-abled and poor communities"
       ],
-      gradient: "bg-gradient-trust",
-      color: "text-accent"
+      gradient: "bg-gradient-service",
+      color: "text-secondary"
     }
   ];
 
@@ -75,11 +101,11 @@ export default function ContributionsSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Key <span className="bg-gradient-service bg-clip-text text-transparent">Contributions</span>
+            Social <span className="bg-gradient-service bg-clip-text text-transparent">Contributions</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Dedicated service across multiple sectors, creating lasting positive impact 
-            in communities throughout Maharashtra and beyond.
+            in communities throughout Maharashtra through grassroots initiatives and social reform.
           </p>
         </div>
 
@@ -124,20 +150,20 @@ export default function ContributionsSection() {
         {/* Impact Statistics */}
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center space-y-2">
-            <div className="text-3xl lg:text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">10,000+</div>
-            <div className="text-muted-foreground">Trees Planted</div>
+            <div className="text-3xl lg:text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">116</div>
+            <div className="text-muted-foreground">Villages in Campaign</div>
           </div>
           <div className="text-center space-y-2">
-            <div className="text-3xl lg:text-4xl font-bold bg-gradient-service bg-clip-text text-transparent">500+</div>
-            <div className="text-muted-foreground">Students Supported</div>
+            <div className="text-3xl lg:text-4xl font-bold bg-gradient-service bg-clip-text text-transparent">96</div>
+            <div className="text-muted-foreground">Villages Adopted</div>
           </div>
           <div className="text-center space-y-2">
-            <div className="text-3xl lg:text-4xl font-bold bg-gradient-trust bg-clip-text text-transparent">100+</div>
-            <div className="text-muted-foreground">Health Camps</div>
+            <div className="text-3xl lg:text-4xl font-bold bg-gradient-trust bg-clip-text text-transparent">21,000+</div>
+            <div className="text-muted-foreground">Families Helped</div>
           </div>
           <div className="text-center space-y-2">
-            <div className="text-3xl lg:text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">50+</div>
-            <div className="text-muted-foreground">Villages Impacted</div>
+            <div className="text-3xl lg:text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">24/7</div>
+            <div className="text-muted-foreground">COVID Service</div>
           </div>
         </div>
       </div>

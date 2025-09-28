@@ -5,8 +5,8 @@ export default function AboutSection() {
   const highlights = [
     {
       icon: GraduationCap,
-      title: "Ph.D. in Agriculture",
-      description: "Expert in sustainable farming and rural development",
+      title: "Ph.D. in Agriculture & Social Work",
+      description: "Expert in sustainable farming and community development",
       color: "text-secondary"
     },
     {
@@ -18,13 +18,13 @@ export default function AboutSection() {
     {
       icon: Heart,
       title: "Social Worker",
-      description: "Committed to community welfare and social justice",
+      description: "Lifelong commitment to community welfare and human rights",
       color: "text-accent"
     },
     {
       icon: Users,
-      title: "Jila Adhyaksh",
-      description: "Leading with progressive policies and vision",
+      title: "District President",
+      description: "Leading BJP with progressive policies and grassroots vision",
       color: "text-primary"
     }
   ];
@@ -37,8 +37,8 @@ export default function AboutSection() {
             About <span className="bg-gradient-hero bg-clip-text text-transparent">Dr. Aglawe</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A dedicated leader with deep roots in agriculture, military service, and social welfare, 
-            committed to building a self-reliant and prosperous India.
+            A dedicated District President with extensive experience in social work, agriculture, 
+            and military service, committed to empowering rural communities and building a just society.
           </p>
         </div>
 
@@ -48,10 +48,10 @@ export default function AboutSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-foreground">Early Life & Education</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Born in Patala, Beed, Dr. Ankush Kisanrao Aglawe grew up with a deep connection to 
-                rural India and its challenges. His journey from the fields of Maharashtra to earning 
-                a Ph.D. in Agriculture reflects his unwavering commitment to understanding and solving 
-                the problems faced by farmers and rural communities.
+                Born in Patala, Chandrapur District, Dr. Ankush Kisan Aglawe grew up with a deep connection to 
+                rural India and its challenges. His journey from humble beginnings to earning a Ph.D. in 
+                Agriculture & Social Work reflects his unwavering commitment to understanding and solving 
+                the problems faced by farmers, youth, and rural communities.
               </p>
             </div>
 
@@ -66,11 +66,12 @@ export default function AboutSection() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-foreground">Mission & Vision</h3>
+              <h3 className="text-2xl font-bold text-foreground">Mission & Leadership</h3>
               <p className="text-muted-foreground leading-relaxed">
-                His lifelong mission centers on empowering youth through education, promoting sustainable 
-                agriculture practices, and ensuring social justice for all. As Jila Adhyaksh, he continues 
-                to work tirelessly for policy reforms and community-driven initiatives.
+                As District President (BJP), his lifelong mission centers on empowering rural communities, 
+                youth, and farmers through policy reforms and grassroots initiatives. Through various 
+                leadership positions and social organizations, he continues to champion social justice, 
+                sustainable development, and human rights.
               </p>
             </div>
           </div>

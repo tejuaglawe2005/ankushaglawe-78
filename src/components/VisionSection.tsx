@@ -65,11 +65,9 @@ export default function VisionSection() {
                 <Eye size={36} className="text-white" />
               </div>
               <h3 className="text-2xl lg:text-3xl font-bold text-foreground">Our Vision</h3>
-              <blockquote className="text-xl lg:text-2xl text-foreground leading-relaxed max-w-4xl mx-auto font-medium">
-                "A self-reliant India where every individual has access to education, 
-                sustainable livelihoods, and a thriving environment that ensures prosperity 
-                and justice for all."
-              </blockquote>
+          <blockquote className="text-xl lg:text-2xl text-foreground leading-relaxed max-w-4xl mx-auto font-medium">
+            "A self-reliant India where every individual has access to education, justice, and sustainable livelihoods."
+          </blockquote>
             </div>
           </Card>
         </div>
@@ -133,7 +131,7 @@ export default function VisionSection() {
           </h3>
           <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-8">
             Together, we can build the India of our dreams. Your support and participation 
-            are crucial in making this vision a reality for every citizen.
+            are crucial in empowering youth, farmers, and communities across Maharashtra.
           </p>
           <Button 
             variant="hero" 
