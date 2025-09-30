@@ -60,7 +60,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Location",
-      info: "Patala, Maharashtra",
+      info: "Warora, Maharashtra",
       description: "Visit us at our office",
       href: "#",
       gradient: "bg-gradient-trust"

@@ -48,7 +48,7 @@ export default function AboutSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-foreground">Early Life & Education</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Born in Patala, Chandrapur District, Dr. Ankush Kisan Aglawe grew up with a deep connection to 
+                Born in Warora, Chandrapur District, Dr. Ankush Kisan Aglawe grew up with a deep connection to 
                 rural India and its challenges. His journey from humble beginnings to earning a Ph.D. in 
                 Social Work reflects his unwavering commitment to understanding and solving 
                 the problems faced by farmers, youth, and rural communities.
