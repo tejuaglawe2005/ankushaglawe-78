@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Twitter, Youtube, Mail, Phone } from "lucide-react";
-import heroPortrait from "@/assets/dr-ankush-portrait.jpg";
+import heroPortrait from "@/assets/dr-ankush-hero.jpg";
 
 export default function HeroSection() {
   const scrollToContact = () => {
