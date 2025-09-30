@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Globe, Facebook, Instagram, Twitter, Youtube, Send } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -56,6 +56,14 @@ export default function ContactSection() {
       description: "Call us for urgent matters",
       href: "tel:+919881769072",
       gradient: "bg-gradient-service"
+    },
+    {
+      icon: Globe,
+      title: "Website",
+      info: "drankushaglawe.com",
+      description: "Visit our official website",
+      href: "https://drankushaglawe.com",
+      gradient: "bg-gradient-hero"
     },
     {
       icon: MapPin,
