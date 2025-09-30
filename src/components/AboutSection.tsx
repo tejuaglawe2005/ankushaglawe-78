@@ -5,7 +5,7 @@ export default function AboutSection() {
   const highlights = [
     {
       icon: GraduationCap,
-      title: "Ph.D. in Agriculture & Social Work",
+      title: "Ph.D. in Social Work",
       description: "Expert in sustainable farming and community development",
       color: "text-secondary"
     },
@@ -50,7 +50,7 @@ export default function AboutSection() {
               <p className="text-muted-foreground leading-relaxed">
                 Born in Patala, Chandrapur District, Dr. Ankush Kisan Aglawe grew up with a deep connection to 
                 rural India and its challenges. His journey from humble beginnings to earning a Ph.D. in 
-                Agriculture & Social Work reflects his unwavering commitment to understanding and solving 
+                Social Work reflects his unwavering commitment to understanding and solving 
                 the problems faced by farmers, youth, and rural communities.
               </p>
             </div>

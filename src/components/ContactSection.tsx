@@ -60,7 +60,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Location",
-      info: "Patala, Beed, Maharashtra",
+      info: "Patala, Maharashtra",
       description: "Visit us at our office",
       href: "#",
       gradient: "bg-gradient-trust"
